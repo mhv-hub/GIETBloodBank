@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/back"
+    tools:context="com.unit.gietbloodbank.MainActivity">
+
+
+    <TextView
+        android:id="@+id/quote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textColor="@color/themecolor"
+        android:textSize="20dp" />
+
+
+    <RelativeLayout
+        android:id="@+id/buttons"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginBottom="80dp">
+
+    <Button
+        android:id="@+id/form"
+        android:background="@drawable/formbutton"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <Button
+        android:id="@+id/search"
+        android:background="@drawable/searchbutton"
+        android:layout_marginLeft="140dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <Button
+        android:id="@+id/notice"
+        android:background="@drawable/noticebutton"
+        android:layout_below="@+id/form"
+        android:layout_marginTop="40dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <Button
+        android:id="@+id/status"
+        android:background="@drawable/statusbutton"
+        android:layout_below="@+id/search"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="140dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

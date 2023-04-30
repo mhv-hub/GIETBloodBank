@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bloodlogo"
+        android:layout_marginTop="20dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="5dp">
+    <Spinner
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bloddtextedit"
+        android:id="@+id/bloodgrp">
+    </Spinner>
+
+        <EditText
+            android:singleLine="true"
+            android:id="@+id/id"
+            android:padding="15dp"
+            android:layout_marginLeft="85dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="@color/edit_text"
+            android:background="@drawable/roundedittext"
+            android:hint="ID/ROLL"
+            android:textColorHint="@color/edit_text"
+            android:inputType="text"
+            android:text=""/>
+
+    <EditText
+        android:singleLine="true"
+        android:id="@+id/name"
+        android:padding="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_below="@id/bloodgrp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="@color/edit_text"
+        android:background="@drawable/roundedittext"
+        android:hint="Name"
+        android:textColorHint="@color/edit_text"
+        android:inputType="textPersonName"
+        android:text=""/>
+
+    <EditText
+        android:singleLine="true"
+        android:id="@+id/age"
+        android:padding="15dp"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="15dp"
+        android:layout_width="150dp"
+        android:gravity="center"
+        android:layout_alignParentLeft="true"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/edit_text"
+        android:background="@drawable/roundedittext"
+        android:hint="Age"
+        android:textColorHint="@color/edit_text"
+        android:inputType="number"
+        android:text=""/>
+
+    <Spinner
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:background="@drawable/roundedittext"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/gender">
+    </Spinner>
+
+
+    <EditText
+        android:singleLine="true"
+        android:id="@+id/phno"
+        android:padding="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/age"
+        android:textSize="20dp"
+        android:textColor="@color/edit_text"
+        android:gravity="center"
+        android:background="@drawable/roundedittext"
+        android:hint="Contact number"
+        android:textColorHint="@color/edit_text"
+        android:inputType="phone"
+        android:text=""/>
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@color/semidark"
+        android:layout_alignParentBottom="true">
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Submit details"
+        android:textSize="20dp"
+        android:background="@drawable/submit_button"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#9ad59a"
+        />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

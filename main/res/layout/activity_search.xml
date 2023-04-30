@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/back"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingLeft="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="Enter Blood Group"
+        android:background="@drawable/searchedittext"
+        android:textColorHint="@color/back"
+        android:textColor="@color/back"
+        android:singleLine="true"
+        android:id="@+id/search"/>
+
+    <Button
+        android:id="@+id/srch"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/searchbut"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="6dp"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="70dp"
+        android:background="@color/back"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+            <ListView
+                android:id="@+id/list"
+                android:background="@color/back"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

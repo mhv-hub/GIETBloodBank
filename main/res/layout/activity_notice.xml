@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/back"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:text="NOTICE SECTION"
+        android:textStyle="bold"
+        android:background="@drawable/searchedittext"
+        android:textColor="#000000"
+        android:singleLine="true"/>
+
+    <RelativeLayout
+        android:layout_marginTop="30dp"
+        android:background="@color/back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/aaa"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/notice"
+            android:textSize="20dp"
+            android:text="Mega blood donation camp is going to be held on 20th february 2017 at GIET, Gunupur."/>
+
+        <TextView
+            android:id="@+id/bbb"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/aaa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/notice"
+            android:textSize="20dp"
+            android:text="Emergency need of AB+ blood group."
+            />
+
+        <TextView
+            android:id="@+id/ccc"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/bbb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/notice"
+            android:textSize="20dp"
+            android:text="GIET Gunupur achieved the target of 400 unit blood in February 2017."
+            />
+
+        <TextView
+            android:id="@+id/ddd"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/ccc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/notice"
+            android:textSize="20dp"
+            android:text="Chairman of GIET Gunupur inaugrated the blood donation ceremony."
+            />
+    </RelativeLayout>
+
+
+</LinearLayout>

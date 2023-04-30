@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff5501</color>
+    <color name="colorPrimaryDark">#212a34</color>
+    <color name="colorAccent">#9ad59a</color>
+    <color name="back">#212a34</color>
+    <color name="edit_text">#64676B</color>
+    <color name="notice">#919395</color>
+    <color name="white">#ffffff</color>
+    <color name="dark">#FF19212A</color>
+    <color name="semidark">#FF293138</color>
+    <color name="whitealt">#adacac</color>
+    <color name="themecolor">#f74949</color>
+    <color name="edittheme">#FF979899</color>
+</resources>
